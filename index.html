@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TFJS</title>
+
+  <!-- Import TensorFlow.js -->
+  <script src="./tf/tf.min.js"></script>
+  <!-- Import tfjs-vis -->
+  <script src="./tf/tfjs-vis.umd.min.js"></script>
+
+  <!-- Import the data file -->
+  <script src="data.js" type="module"></script>
+
+  <!-- Import the main script file -->
+  <script src="script.js" type="module"></script>
+
+</head>
+
+<body id='body'>
+  <button id="load-data">Load data</button>
+  <button id="show-examples">Show Example Digits</button>
+  <button id="train">Train</button>
+  <button id="load-model">Load model</button>
+  <button id="show-accuracy">Show accuracy</button>
+  <button id="show-confusion">Show confusion</button>
+  <button id="test">Test Image</button>
+</body>
+
+</html>
